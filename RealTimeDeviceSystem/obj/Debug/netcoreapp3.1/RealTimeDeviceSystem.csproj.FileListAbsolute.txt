@@ -12,3 +12,17 @@ C:\Users\Lev\source\repos\2024_RealTime\RealTimeDeviceSystem\obj\Debug\netcoreap
 C:\Users\Lev\source\repos\2024_RealTime\RealTimeDeviceSystem\obj\Debug\netcoreapp3.1\RealTimeDeviceSystem.dll
 C:\Users\Lev\source\repos\2024_RealTime\RealTimeDeviceSystem\obj\Debug\netcoreapp3.1\RealTimeDeviceSystem.pdb
 C:\Users\Lev\source\repos\2024_RealTime\RealTimeDeviceSystem\obj\Debug\netcoreapp3.1\RealTimeDeviceSystem.genruntimeconfig.cache
+E:\Sources\GitHub projects\uni\RealTimeDeviceSystem\bin\Debug\netcoreapp3.1\RealTimeDeviceSystem.exe
+E:\Sources\GitHub projects\uni\RealTimeDeviceSystem\bin\Debug\netcoreapp3.1\RealTimeDeviceSystem.deps.json
+E:\Sources\GitHub projects\uni\RealTimeDeviceSystem\bin\Debug\netcoreapp3.1\RealTimeDeviceSystem.runtimeconfig.json
+E:\Sources\GitHub projects\uni\RealTimeDeviceSystem\bin\Debug\netcoreapp3.1\RealTimeDeviceSystem.runtimeconfig.dev.json
+E:\Sources\GitHub projects\uni\RealTimeDeviceSystem\bin\Debug\netcoreapp3.1\RealTimeDeviceSystem.dll
+E:\Sources\GitHub projects\uni\RealTimeDeviceSystem\bin\Debug\netcoreapp3.1\RealTimeDeviceSystem.pdb
+E:\Sources\GitHub projects\uni\RealTimeDeviceSystem\obj\Debug\netcoreapp3.1\RealTimeDeviceSystem.csproj.AssemblyReference.cache
+E:\Sources\GitHub projects\uni\RealTimeDeviceSystem\obj\Debug\netcoreapp3.1\RealTimeDeviceSystem.GeneratedMSBuildEditorConfig.editorconfig
+E:\Sources\GitHub projects\uni\RealTimeDeviceSystem\obj\Debug\netcoreapp3.1\RealTimeDeviceSystem.AssemblyInfoInputs.cache
+E:\Sources\GitHub projects\uni\RealTimeDeviceSystem\obj\Debug\netcoreapp3.1\RealTimeDeviceSystem.AssemblyInfo.cs
+E:\Sources\GitHub projects\uni\RealTimeDeviceSystem\obj\Debug\netcoreapp3.1\RealTimeDeviceSystem.csproj.CoreCompileInputs.cache
+E:\Sources\GitHub projects\uni\RealTimeDeviceSystem\obj\Debug\netcoreapp3.1\RealTimeDeviceSystem.dll
+E:\Sources\GitHub projects\uni\RealTimeDeviceSystem\obj\Debug\netcoreapp3.1\RealTimeDeviceSystem.pdb
+E:\Sources\GitHub projects\uni\RealTimeDeviceSystem\obj\Debug\netcoreapp3.1\RealTimeDeviceSystem.genruntimeconfig.cache

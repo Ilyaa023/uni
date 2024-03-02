@@ -7,12 +7,12 @@ namespace RealTimeDeviceSystem
     {
         static void Main(string[] args)
         {
-            List<FireDetector> fdList = new List<FireDetector>();
+            List<Velocimeter> vList = new List<Velocimeter>();
             for (int i=0; i<10; i++)
             {
-                FireDetector fd = new FireDetector();
-                fd.FillFireDetector($"Датчик#{i}", "", "ДП1", 1, 1, i);
-                fdList.Add(fd);
+                Velocimeter v = new Velocimeter();
+                v.FillVelocimeter($"Sensor#{i}", "", "DVA", 1, 1, i, 10, 15, 1);
+                vList.Add(v);
             }
 
             var startTimeSpan = TimeSpan.Zero;
@@ -20,11 +20,12 @@ namespace RealTimeDeviceSystem
 
             var timer = new System.Threading.Timer((e) =>
             {
-                foreach(var fd in fdList)
+                foreach(var v in vList)
                 {
-                    fd.ChangeFireDetectorState();
-                    Console.WriteLine($"Состояние датчика {fd.Name} - Статус: {fd.Status}, Дым - {fd.SmokeStatus}");
+                    v.ChangeFireDetectorState(1);
+                    Console.WriteLine($"Status of {v.Name} is: {v.Status}, Velocity = {v.VelocityValue}");
                 }
+                Console.WriteLine();
             }, null, startTimeSpan, periodTimeSpan);
 
             Console.ReadKey();

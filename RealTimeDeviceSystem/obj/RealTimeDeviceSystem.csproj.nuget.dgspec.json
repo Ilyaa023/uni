@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lev\\source\\repos\\2024_RealTime\\RealTimeDeviceSystem\\RealTimeDeviceSystem.csproj": {}
+    "E:\\Sources\\GitHub projects\\uni\\RealTimeDeviceSystem\\RealTimeDeviceSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lev\\source\\repos\\2024_RealTime\\RealTimeDeviceSystem\\RealTimeDeviceSystem.csproj": {
+    "E:\\Sources\\GitHub projects\\uni\\RealTimeDeviceSystem\\RealTimeDeviceSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lev\\source\\repos\\2024_RealTime\\RealTimeDeviceSystem\\RealTimeDeviceSystem.csproj",
+        "projectUniqueName": "E:\\Sources\\GitHub projects\\uni\\RealTimeDeviceSystem\\RealTimeDeviceSystem.csproj",
         "projectName": "RealTimeDeviceSystem",
-        "projectPath": "C:\\Users\\Lev\\source\\repos\\2024_RealTime\\RealTimeDeviceSystem\\RealTimeDeviceSystem.csproj",
-        "packagesPath": "C:\\Users\\Lev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lev\\source\\repos\\2024_RealTime\\RealTimeDeviceSystem\\obj\\",
+        "projectPath": "E:\\Sources\\GitHub projects\\uni\\RealTimeDeviceSystem\\RealTimeDeviceSystem.csproj",
+        "packagesPath": "C:\\Users\\ilyaa\\.nuget\\packages\\",
+        "outputPath": "E:\\Sources\\GitHub projects\\uni\\RealTimeDeviceSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ilyaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
