@@ -1,0 +1,14 @@
+C:\Users\Lev\source\repos\2024_RealTime\RealTimeDeviceSystem\bin\Debug\netcoreapp3.1\RealTimeDeviceSystem.exe
+C:\Users\Lev\source\repos\2024_RealTime\RealTimeDeviceSystem\bin\Debug\netcoreapp3.1\RealTimeDeviceSystem.deps.json
+C:\Users\Lev\source\repos\2024_RealTime\RealTimeDeviceSystem\bin\Debug\netcoreapp3.1\RealTimeDeviceSystem.runtimeconfig.json
+C:\Users\Lev\source\repos\2024_RealTime\RealTimeDeviceSystem\bin\Debug\netcoreapp3.1\RealTimeDeviceSystem.runtimeconfig.dev.json
+C:\Users\Lev\source\repos\2024_RealTime\RealTimeDeviceSystem\bin\Debug\netcoreapp3.1\RealTimeDeviceSystem.dll
+C:\Users\Lev\source\repos\2024_RealTime\RealTimeDeviceSystem\bin\Debug\netcoreapp3.1\RealTimeDeviceSystem.pdb
+C:\Users\Lev\source\repos\2024_RealTime\RealTimeDeviceSystem\obj\Debug\netcoreapp3.1\RealTimeDeviceSystem.csproj.AssemblyReference.cache
+C:\Users\Lev\source\repos\2024_RealTime\RealTimeDeviceSystem\obj\Debug\netcoreapp3.1\RealTimeDeviceSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lev\source\repos\2024_RealTime\RealTimeDeviceSystem\obj\Debug\netcoreapp3.1\RealTimeDeviceSystem.AssemblyInfoInputs.cache
+C:\Users\Lev\source\repos\2024_RealTime\RealTimeDeviceSystem\obj\Debug\netcoreapp3.1\RealTimeDeviceSystem.AssemblyInfo.cs
+C:\Users\Lev\source\repos\2024_RealTime\RealTimeDeviceSystem\obj\Debug\netcoreapp3.1\RealTimeDeviceSystem.csproj.CoreCompileInputs.cache
+C:\Users\Lev\source\repos\2024_RealTime\RealTimeDeviceSystem\obj\Debug\netcoreapp3.1\RealTimeDeviceSystem.dll
+C:\Users\Lev\source\repos\2024_RealTime\RealTimeDeviceSystem\obj\Debug\netcoreapp3.1\RealTimeDeviceSystem.pdb
+C:\Users\Lev\source\repos\2024_RealTime\RealTimeDeviceSystem\obj\Debug\netcoreapp3.1\RealTimeDeviceSystem.genruntimeconfig.cache
