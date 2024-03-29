@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ic6blZgIny9Z0z51/wNTlJAdD/mbQ4iEJk2UO0uFioHfWZixpSzLvCQX57VcDEKZAs4bOTiG+OSG00Odz/LxTQ==",
+  "success": true,
+  "projectFilePath": "E:\\Sources\\GitHub projects\\uni\\RTDC\\RTDC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ilyaa\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\ilyaa\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\ilyaa\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\ilyaa\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\ilyaa\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\ilyaa\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
