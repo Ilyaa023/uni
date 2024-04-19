@@ -1,12 +1,19 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Authentication;
+using RTDC.Services;
+using System;
 using System.Collections.Generic;
 using System.Data.Common;
+using System.Linq;
 using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
 
-namespace RTDC
+namespace RTDC.Models
 {
     public class Velocimeter
     {
+        private static List<Velocimeter> velocimeters = new List<Velocimeter>();
+
         public static string[] StatusList = { "On", "Off", "Warning", "Emergency" };
         public string Name { get; set; }
         public string Description { get; set; }
@@ -20,26 +27,25 @@ namespace RTDC
 
         public void FillVelocimeter(string name, string description, string model, int buildingNumber, int device, int order, int w, int e, int o)
         {
-            this.Name = name;
-            this.Description = description;
-            this.Model = model;
+            Name = name;
+            Description = description;
+            Model = model;
             Location loc = new Location();
             loc.FillLocation(buildingNumber, device, order);
-            this.Location = loc;
-            this.EmergencySetpointHigh = e;
-            this.WarningSetpointHigh = w;
-            this.Operability = o;
+            Location = loc;
+            EmergencySetpointHigh = e;
+            WarningSetpointHigh = w;
+            Operability = o;
         }
 
-        public void ChangeFireDetectorState(int o)
+        public async void ChangeVeloDetectorState()
         {
             Random random = new Random();
-            Operability = o;
-            this.VelocityValue = random.Next(0, 20);
+            VelocityValue = random.Next(0, 20);
 
             if (Operability == 0)
                 Status = StatusList[1];
-            else 
+            else
                 Status = StatusList[0];
 
             if (Status != StatusList[1])
@@ -51,20 +57,9 @@ namespace RTDC
                 else
                     Status = StatusList[0];
             }
+            await VeloService.GetService().SendUpdatedValues();
+            await VeloService.GetService().SendUpdatedEvents();
         }
-    }
 
-    public class Location
-    {
-        public int BuildingNumber { get; set; }
-        public int Device { get; set; }
-        public int Order { get; set; }
-
-        public void FillLocation(int buildingNumber, int device, int order)
-        {
-            this.BuildingNumber = buildingNumber;
-            this.Device = device;
-            this.Order = order;
-        }
     }
 }

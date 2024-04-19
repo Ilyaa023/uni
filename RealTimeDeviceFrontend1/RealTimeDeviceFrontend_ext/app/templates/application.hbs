@@ -1,0 +1,36 @@
+{{outlet}}
+<div>
+    <form>
+        <div>
+            <label>Наименование</label>
+            {{input type="text" placeholder="Введите наименование" value=newVelocimeter.name}}
+        </div>
+        <div>
+            <label>Модель</label>
+            {{input type="text" placeholder="Введите модель" value=newVelocimeter.model}}
+        </div>
+        <div>
+            <label>Описание</label>
+            {{input type="text" placeholder="Введите описание" value=newVelocimeter.description}}
+        </div>
+        <div>
+            <label>Здание</label>
+            {{input type="text" placeholder="Введите" value=newVelocimeter.location.buildingNumber}}
+        </div>
+        <div>
+            <label>Устройство</label>
+            {{input type="text" placeholder="Введите" value=newVelocimeter.location.device}}
+        </div>
+        <div>
+            <label>Номер</label>
+            {{input type="text" placeholder="Введите" value=newVelocimeter.location.order}}
+        </div>
+        <button {{action 'addVelocimeter' newVelocimeter this}}>Сохранить</button>
+    </form>
+</div>
+{{#each ws.velocimeters as |vm|}}
+    <div style="display: inline-block;">
+        {{velocimeter vm=vm}}
+    </div>
+{{/each}}
+

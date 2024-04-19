@@ -1,0 +1,33 @@
+<div class="container">
+    <img style="width:400px;" src="https://www.tik.perm.ru/upload/iblock/863/8633951eef8e86fb3d1ff859d212daee.jpg">
+    <div class="status" style="height: {{statusHeight}}%"></div>
+    <div class="velocityValue {{stateClass}}"></div>
+    <button class="remove-button" {{action 'deleteVelocimeter'}}>x</button>
+</div>
+<form>
+    <div>
+        <label>Наименование</label>
+        {{input type="text" placeholder="Введите наименование" value=vm.name}}
+    </div>
+    <div>
+        <label>Модель</label>
+        {{input type="text" placeholder="Введите модель" value=vm.model}}
+    </div>
+    <div>
+        <label>Описание</label>
+        {{input type="text" placeholder="Введите описание" value=vm.description}}
+    </div>
+    <div>
+        <label>Здание</label>
+        {{input type="text" placeholder="Введите" value=vm.location.buildingNumber}}
+    </div>
+    <div>
+        <label>Устройство</label>
+        {{input type="text" placeholder="Введите" value=vm.location.device}}
+    </div>
+    <div>
+        <label>Номер</label>
+        {{input type="text" placeholder="Введите" value=vm.location.order}}
+    </div>
+    <button {{action 'updateVelocimeter'}}>Сохранить</button>
+</form>

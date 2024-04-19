@@ -1,0 +1,40 @@
+.container {
+    position: relative;
+}
+
+.velocity {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background-color: green;
+    top: 0;
+    right: 0;
+}
+
+.status.off {
+    background-color: red;
+}
+
+.status.warn {
+    background-color: yellow;
+}
+
+.status.emg {
+    background-color: rgb(255, 0, 85);
+}
+
+.status {
+    position: absolute;
+    width: 16px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: grey;
+}
+
+.remove-button {
+    position: absolute;
+    top: 0;
+    right: 20px;
+}

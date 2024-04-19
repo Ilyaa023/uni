@@ -1,0 +1,13 @@
+{{outlet}}
+{{#each ws.fireDetectors as |fd|}}
+    <div style="display: inline-block">
+        <div>{{fd.name}}</div>
+        <div>{{fd.model}}</div>
+        <div>{{fd.description}}</div>
+        <div>{{fd.status}}</div>
+        <div>{{fd.smokeStatus}}</div>
+        <div>Здание: {{fd.location.buildingNumber}}</div>
+        <div>Этаж: {{fd.location.floorNumber}}</div>
+        <div>Номер: {{fd.location.order}}</div>
+    </div>
+{{/each}}

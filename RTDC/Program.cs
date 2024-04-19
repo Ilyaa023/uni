@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using RTDC.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,7 +34,7 @@ namespace RTDC
                 }
                 Console.WriteLine();
             }, null, startTimeSpan, periodTimeSpan);*/
-
+            VeloService.GetService();
             CreateHostBuilder(args).Build().Run();
         }
 
